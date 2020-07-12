@@ -3,7 +3,6 @@ const express = require("express");
 const app = express();
 app.listen(process.env.PORT);
 setInterval(() => {
-  http.get(`http://ytd-apply.glitch.me/`);
 }, 280000);
 
 const Discord = require("discord.js");
